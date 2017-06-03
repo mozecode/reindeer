@@ -15,7 +15,7 @@ var html = "";
 
 function iterateThroughArrays(combo){
 for(var i=0; i<reindeer.length; i++) {
-	message = `<div>${colors[i]} ${reindeer[i]}</div>`
+	message = `<div>${colors[i]} ${reindeer[i]}</div><br>`
 
 	html += message;
 
